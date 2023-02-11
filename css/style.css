@@ -2,12 +2,16 @@
 /*This is a comment in CSS*/
 
 body{
-    font-family: Verdana, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Verdana, sans-serif;
     margin: 0;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 60px;
+    font-weight: 100;
+    letter-spacing: 20px;
+    color:springgreen;
+    background-color: rgb(189, 169, 215);
     
 }
 
