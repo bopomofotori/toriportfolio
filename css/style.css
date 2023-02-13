@@ -84,24 +84,29 @@ footer{
 } */
 
 .flex-item a#beps{
-    background-image: url(../assets/images/beps.png); 
+    background-image: url(../assets/beps.png); 
 }
 
 .flex-item a#another{
-    background-image: url(../assets/images/another.png); 
+    background-image: url(../assets/another.png); 
 }
 
 .flex-item a#week1{
-    background-image: url(../assets/images/week1.png); 
+    background-image: url(../assets/week1.png); 
 }
 
 .flex-item a#week2{
-    background-image: url(../assets/images/week2.png); 
+    background-image: url(../assets/week2.png); 
+
+}
+
+.flex-item a#week3{
+    background-image: url(../assets/week3.jpg); 
 
 }
 
 .flex-item a#week4{
-    background-image: url(../assets/images/week4.png); 
+    background-image: url(../assets/week4.png); 
 
 }
 
