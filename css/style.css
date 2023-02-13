@@ -7,11 +7,11 @@ body{
 }
 
 h1{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 100;
     letter-spacing: 20px;
     color:springgreen;
-    background-color: rgb(189, 169, 215);
+  
     
 }
 
@@ -62,23 +62,43 @@ footer{
     width: 100%;
     height: 0;
     padding: 30% 0;
-    background-image: url(../assets/images/lightgrey-line.jpeg); /*change the image to one of you choice */
     background-position: center;
     background-size: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-image: url(../assets/images/lightgrey-line.jpeg);
     text-decoration: none;
     color:#4f4f4f;
-    transition: all 0.2s; /* CSS transitions https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions */
+    
 }
 
+
+
+ /*change the image to one of you choice */
 /* want a different background image for each project? */
 /* try give each a tag a unique id in your HTML and then set different background images here*/
 /* EXAMPLE CSS: won't work if you just un-comment this:*/
 /* .flex-item a#my-special-id{
     background-image: url(../assets/images/custom-image-name.jpeg); 
 } */
+
+.flex-item a#beps{
+    background-image: url(../assets/images/beps.png); 
+}
+
+.flex-item a#another{
+    background-image: url(../assets/images/another.png); 
+}
+
+.flex-item a#week1{
+    background-image: url(../assets/images/week1.png); 
+}
+
+.flex-item a#week2{
+    background-image: url(../assets/images/week2.png); 
+
+}
 
 
 .flex-item a:hover{
